@@ -6,6 +6,7 @@ import OrbitControls from "../components/OrbitControls";
 import LightBulb from '../components/LightBulb'
 import styles from '../styles/Home.module.css'
 import Draggable from '../components/Draggable';
+import {Suspense} from "react";
 
 export default function SceneOne() {
 
@@ -22,7 +23,9 @@ export default function SceneOne() {
           <LightBulb position={[0, 3, 0]} />
           
           <Draggable>
-            <Box rotateX={3} rotateY={0.2} />
+            <Suspense fallback={null}>
+              <Box rotateX={3} rotateY={0.2} />
+            </Suspense>
           </Draggable>
           <OrbitControls />
           <Floor position={[0, -1, 0]} />
