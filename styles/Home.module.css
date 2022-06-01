@@ -32,6 +32,10 @@
   font-size: 1.5rem;
 }
 
+.sitealkimera a:hover {
+  border-bottom: 3px solid dodgerblue;
+}
+
 .contentscenes {
   width: 100%;
   padding: 12px;

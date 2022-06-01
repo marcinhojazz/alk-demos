@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,13 +15,17 @@ export default function Home() {
       <main className={styles.main}>
         <nav className={styles.navbar}>
           <div>
-            <a href="/">
-              <span className={styles.titulo}>ALKIMERA DEMOS XR</span>
-            </a>
+            <Link href="/">
+              <a>
+                <span className={styles.titulo}>ALKIMERA DEMOS XR</span>
+              </a>
+            </Link>
           </div>
           <div className={styles.sitealkimera}>
             <span>© 2022 Made from</span>
-            <a href="https:// alkimera.tech"> Alkimera Tech</a>
+            <Link href="https:// alkimera.tech">
+              <a> Alkimera Tech</a>
+            </Link>
           </div>
         </nav>
         <div>
