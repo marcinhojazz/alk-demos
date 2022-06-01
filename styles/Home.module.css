@@ -1,3 +1,62 @@
+.container {
+  font-family: Poppins, sans-serif;
+}
+
+
+.navbar {
+  width: 100%;
+  background: burlywood;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: darkslategray;
+}
+
+.titulo:hover {
+  border-bottom: 3px solid darkviolet;
+}
+
+.sitealkimera {
+  padding: 4px;
+}
+
+.sitealkimera a {
+  padding: 4px;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contentscenes {
+  width: 100%;
+  padding: 12px;
+}
+
+.boxcards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+}
+
+.cardscenes {
+  /* border: 1px solid coral; */
+  border-radius: .5rem;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  padding: 4px;
+}
+
+.cardscenes a {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 .scene {
   width: 100vw;
   height: 100vh;
