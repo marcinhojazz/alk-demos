@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
@@ -36,47 +37,54 @@ export default function Home() {
               <div>
                 <ul className={styles.boxcards}>
                   <li className={styles.cardscenes}>
-                    <a href="/sceneone">
+                    <Link href="/sceneone">
+                    <a>
                       <p>Scene One</p>
-                      <img width={240} src="/sceneone.png" alt="" />
+                      <Image src="/sceneone.png" alt="Scene One" width={300} height={300} />
                     </a>
+                    </Link>
                   </li>
                   <li className={styles.cardscenes}>
-                    <a href="/sceneone">
-                      <p>Scene Two</p>
-                      <img width={240} src="/sceneone.png" alt="" />
+                    <Link href="/sceneone">
+                    <a>
+                      <p>Scene One</p>
+                      <Image src="/sceneone.png" alt="Scene One" width={300} height={300} />
                     </a>
+                    </Link>
                   </li>
                   <li className={styles.cardscenes}>
-                    <a href="/sceneone">
-                      <p>Scene Three</p>
-                      <img width={240} src="/sceneone.png" alt="" />
+                    <Link href="/sceneone">
+                    <a>
+                      <p>Scene One</p>
+                      <Image src="/sceneone.png" alt="Scene One" width={300} height={300} />
                     </a>
+                    </Link>
                   </li>
                   <li className={styles.cardscenes}>
-                    <a href="/sceneone">
-                      <p>Scene Four</p>
-                      <img width={240} src="/sceneone.png" alt="" />
+                    <Link href="/sceneone">
+                    <a>
+                      <p>Scene One</p>
+                      <Image src="/sceneone.png" alt="Scene One" width={300} height={300} />
                     </a>
+                    </Link>
                   </li>
                   <li className={styles.cardscenes}>
-                    <a href="/sceneone">
-                      <p>Scene Five</p>
-                      <img width={240} src="/sceneone.png" alt="" />
+                    <Link href="/sceneone">
+                    <a>
+                      <p>Scene One</p>
+                      <Image src="/sceneone.png" alt="Scene One" width={300} height={300} />
                     </a>
+                    </Link>
                   </li>
                   <li className={styles.cardscenes}>
-                    <a href="/sceneone">
-                      <p>Scene Six</p>
-                      <img width={240} src="/sceneone.png" alt="" />
+                    <Link href="/sceneone">
+                    <a>
+                      <p>Scene One</p>
+                      <Image src="/sceneone.png" alt="Scene One" width={300} height={300} />
                     </a>
+                    </Link>
                   </li>
-                  <li className={styles.cardscenes}>
-                    <a href="/sceneone">
-                      <p>Scene Seven</p>
-                      <img width={240} src="/sceneone.png" alt="" />
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>

@@ -26,8 +26,7 @@ function Draggable(props) {
       <dragControls ref={controlsRef} args={[objects, camera, gl.domElement]} />
       {props.children}
     </group>
-  )
- 
+  );
 }
 
 export default Draggable;
